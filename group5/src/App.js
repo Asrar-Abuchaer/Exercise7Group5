@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Soal1 from "./Pages/Soal1";
 import Soal2 from "./Pages/Soal2";
 import Soal3 from "./Pages/Soal3";
-import { Context, Soal4 } from "./Pages/Soal4";
+import { Text, Soal4 } from "./Pages/Soal4";
 import { ContextProvider } from "./Pages/Soal4/Pages/Context";
 import Chat from "./Pages/Soal4/Pages/Chat";
 function App() {
