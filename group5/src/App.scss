@@ -50,6 +50,34 @@ $secondarycolor: #61677a;
     flex-direction: row;
   }
 }
+#Soal1 {
+  .containerChild {
+    // background-color: red;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    text-align: center;
+  }
+
+  #subtract {
+    background-color: rgb(243, 59, 59);
+  }
+
+  #add {
+    background-color: rgb(105, 220, 105);
+  }
+
+  #output {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  button {
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 0.5em;
+  }
+}
 #Soal2 {
   .containerChild {
     #buttonContainer {
