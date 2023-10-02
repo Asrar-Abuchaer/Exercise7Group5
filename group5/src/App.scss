@@ -1,0 +1,52 @@
+$maincolor: #272829;
+$secondarycolor: #61677a;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#MainApp,
+.container,
+.containerChild {
+  display: flex;
+}
+
+#MainApp {
+  max-width: 100vw;
+  min-height: 100vh;
+  color: white;
+  background-color: $maincolor;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border-radius: 1em;
+  flex-direction: column;
+  width: 70%;
+  border: 2px solid $secondarycolor;
+  align-items: center;
+  .containerChild {
+    margin: 1em 1em;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 1em;
+    text-align: center;
+    #browserLink {
+      color: white;
+      cursor: pointer;
+    }
+    #browserLink:hover {
+      color: blue;
+    }
+  }
+  .homeBody {
+    flex-direction: row;
+  }
+}
