@@ -47,4 +47,20 @@
 }
 .container .homeBody {
   flex-direction: row;
+}
+
+#Soal3 .containerChild input {
+  padding: 0.5em;
+  width: 100%;
+}
+#Soal3 .containerChild input:focus {
+  outline: #61677a;
+  border: 1px solid #61677a;
+}
+#Soal3 .containerChild ul li {
+  border-radius: 0.5em;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.5rem;
+  background-color: #61677a;
+  list-style: none;
 }/*# sourceMappingURL=App.css.map */

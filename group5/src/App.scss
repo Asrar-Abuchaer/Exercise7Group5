@@ -50,3 +50,25 @@ $secondarycolor: #61677a;
     flex-direction: row;
   }
 }
+
+#Soal3 {
+  .containerChild {
+    input {
+      padding: 0.5em;
+      width: 100%;
+    }
+    input:focus {
+      outline: $secondarycolor;
+      border: 1px solid $secondarycolor;
+    }
+    ul {
+      li {
+        border-radius: 0.5em;
+        margin: 0.5rem 0;
+        padding: 0.5rem 0.5rem;
+        background-color: $secondarycolor;
+        list-style: none;
+      }
+    }
+  }
+}
