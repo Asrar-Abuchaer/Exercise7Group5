@@ -50,3 +50,38 @@ $secondarycolor: #61677a;
     flex-direction: row;
   }
 }
+
+#Soal2 {
+  .containerChild {
+    #buttonContainer {
+      width: 100%;
+      padding: 1em;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    button {
+      padding: 1em 2em;
+      border-radius: 0.5em;
+      border: 0;
+    }
+    #button1 {
+      background-color: green
+    }
+    #button2{
+      background-color: red;
+    }
+    #button3 {
+      background-color: yellow;
+    }
+  }
+
+  #timer {
+    padding: 0 1em;
+    font-size: 100px;
+    font-weight: 700;
+  }
+
+
+}

@@ -47,4 +47,32 @@
 }
 .container .homeBody {
   flex-direction: row;
+}
+
+#Soal2 .containerChild #buttonContainer {
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#Soal2 .containerChild button {
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  border: 0;
+}
+#Soal2 .containerChild #button1 {
+  background-color: green;
+}
+#Soal2 .containerChild #button2 {
+  background-color: red;
+}
+#Soal2 .containerChild #button3 {
+  background-color: yellow;
+}
+#Soal2 #timer {
+  padding: 0 1em;
+  font-size: 100px;
+  font-weight: 700;
 }/*# sourceMappingURL=App.css.map */
