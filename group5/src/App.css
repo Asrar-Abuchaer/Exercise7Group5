@@ -47,4 +47,27 @@
 }
 .container .homeBody {
   flex-direction: row;
+}
+
+#Soal1 .containerChild {
+  display: flex;
+  flex-direction: row;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+}
+#Soal1 #subtract {
+  background-color: rgb(243, 59, 59);
+}
+#Soal1 #add {
+  background-color: rgb(105, 220, 105);
+}
+#Soal1 #output {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#Soal1 button {
+  padding: 1em 2em;
+  border: 0;
+  border-radius: 0.5em;
 }/*# sourceMappingURL=App.css.map */

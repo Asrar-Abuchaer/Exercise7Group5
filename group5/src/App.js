@@ -7,6 +7,7 @@ import Soal2 from "./Pages/Soal2";
 import Soal3 from "./Pages/Soal3";
 import Soal4 from "./Pages/Soal4";
 function App() {
+
   return (
     <div className="App" id="MainApp">
       <Routes>
