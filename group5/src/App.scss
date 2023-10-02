@@ -110,3 +110,44 @@ $secondarycolor: #61677a;
     font-weight: 700;
   }
 }
+
+#Soal3 {
+  .containerChild {
+    input {
+      padding: 0.5em;
+      width: 100%;
+    }
+    input:focus {
+      outline: $secondarycolor;
+      border: 1px solid $secondarycolor;
+    }
+    ul {
+      li {
+        border-radius: 0.5em;
+        margin: 0.5rem 0;
+        padding: 0.5rem 0.5rem;
+        background-color: $secondarycolor;
+        list-style: none;
+      }
+    }
+  }
+}
+
+#Soal4 {
+  #Text {
+    display: none;
+  }
+  .containerChild.body {
+    flex-direction: row;
+    textarea {
+      width: 50%;
+      height: 4em;
+      padding: 0.5em;
+    }
+    button {
+      border: 0;
+      border-radius: 0.5em;
+      padding: 1em 2em;
+    }
+  }
+}
