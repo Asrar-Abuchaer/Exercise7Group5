@@ -74,9 +74,6 @@ $secondarycolor: #61677a;
 }
 
 #Soal4 {
-  #Text {
-    display: none;
-  }
   .containerChild.body {
     flex-direction: row;
     textarea {
@@ -92,8 +89,7 @@ $secondarycolor: #61677a;
   }
 }
 
-#chat {
-  p {
-    color: red;
-  }
+#TextChat {
+  background-color: red;
+  color: red;
 }

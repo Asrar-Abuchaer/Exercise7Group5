@@ -20,10 +20,7 @@ function Soal4() {
 
   return (
     <div className="container" id="Soal4">
-      <div className="containerChild header">
-        <h2>Soal 4</h2>
-        <h3>ChitChat - Express Your Feeling</h3>
-      </div>
+      <Header />
       <div className="containerChild body">
         <textarea name="chatInputSoal4" id="chatInputSoal4" />
 
@@ -47,4 +44,13 @@ function Soal4() {
 function Text(props) {
   return <p class="paragraph">{props.text}</p>;
 }
-export { Text, Soal4 };
+
+function Header() {
+  return (
+    <div className="containerChild header">
+      <h2>Soal 4</h2>
+      <h3>ChitChat - Express Your Feeling</h3>
+    </div>
+  );
+}
+export { Text, Soal4, Header };
