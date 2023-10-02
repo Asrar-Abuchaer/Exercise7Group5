@@ -63,4 +63,18 @@
   padding: 0.5rem 0.5rem;
   background-color: #61677a;
   list-style: none;
+}
+
+#Soal4 .containerChild.body {
+  flex-direction: row;
+}
+#Soal4 .containerChild.body textarea {
+  width: 50%;
+  height: 4em;
+  padding: 0.5em;
+}
+#Soal4 .containerChild.body button {
+  border: 0;
+  border-radius: 0.5em;
+  padding: 1em 2em;
 }/*# sourceMappingURL=App.css.map */
